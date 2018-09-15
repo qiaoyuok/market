@@ -1,0 +1,27 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>编辑分类</h2>
+    </div>
+    <form action="{:U()}" method="post" class="form-horizontal">
+        <div class="form-item">
+            <label class="item-label">分类名称</label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="cate_name" value="{$detail.cate_name}">
+                <input type="text" class="text input-large" style="display: none;" name="cate_id" value="{$detail.cate_id}">
+            </div>
+        </div>
+        <div class="form-item" style="margin-top: 50px;">
+            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+            <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+        </div>
+    </form>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+        //导航高亮
+        highlight_subnav('{:U('Goods/cate_edit')}');
+    </script>
+</block>

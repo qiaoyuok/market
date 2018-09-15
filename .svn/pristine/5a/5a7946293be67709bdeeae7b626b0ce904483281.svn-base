@@ -1,0 +1,427 @@
+<extend name="Public/base" />
+<!-- <link rel="stylesheet" type="text/css" href="__LAYUI__/css/layui.css">
+<script type="text/javascript" src="__LAYUI__/layui/js"></script> -->
+<block name="body">
+	<!-- 标题栏 -->
+	<div class="main-title">
+		<h2>订单管理</h2>
+	</div>
+	<div class="cf">
+		<!-- <div class="fl" >
+    
+        </div> -->
+
+        <!-- 高级搜索 -->
+		<div class="search-form fl cf">
+			<div class="sleft" >
+				　姓名：<input type="text" style="float: none;width: 110px;" name="name" class="search-input" value="{:I('name')}" placeholder="请输入用户姓名">
+				
+			</div>
+			<div class="sleft">
+				　设备id：<input type="text" name="device_id" style="float: none;width: 100px;" id="getdevice" class="search-input" value="{:I('device_id')}" placeholder="请输入设备ID号">
+				
+			</div>
+			<eq name="uid" value="1">
+				<div class="sleft">
+					加盟商名称：<input type="text" name="business_name" style="float: none;width: 120px;" id="getbusiness" class="search-input" value="{:I('business_name')}" placeholder="请输入加盟商名称">
+				</div>
+			</eq>
+            <div class="sleft">
+				　店铺名：<input type="text" name="shop_name"  id="getshop" style="float: none;width: 110px;" class="search-input" value="{:I('shop_name')}" placeholder="请输入店铺名称">
+				<!-- <a class="sch-btn" href="javascript:;" style="float: right;" id="search" url="{:U('index')}"><i class="btn-search"></i></a> -->
+			</div>
+			<div class="sleft" style="border: none;">
+				<label>创建时间：</label>
+            	<input type="text" id="time-start" name="time-start" class="text input-2x" value="{:I('time-start')}" placeholder="起始时间" />-
+                <div class="input-append date" id="datetimepicker"  style="display:inline-block">
+                    <input type="text" id="time-end" name="time-end" class="text input-2x" value="{:I('time-end')}" placeholder="结束时间" />
+                    <span class="add-on"><i class="icon-th"></i></span>
+                </div>
+            </div>
+        	<button class="btn" id="search" style="float: left;" url="{:U('index')}">搜　索</button>
+		</div>
+    </div>
+
+    <!-- 获取设备列表 -->
+    <div class="device_box" style="text-align: center;">
+    	<h2>设备列表</h2>
+    	<div class="device">
+		  搜索设备：
+		  <div class="layui-inline">
+		    <input class="layui-input" name="id" id="device_id" placeholder="请输入设备ID号" autocomplete="off">
+		  </div>
+		  <button class="layui-btn" data-type="reload">搜索</button>
+		</div>
+    	<table class="layui-hide" id="device" lay-filter="device"></table>
+    </div>
+
+    <!-- 获取加盟商列表 -->
+    <div class="business_box" style="text-align: center;">
+    	<h2>加盟商列表</h2>
+    	<div class="business">
+		  搜索加盟商：
+		  <div class="layui-inline">
+		    <input class="layui-input" name="id" id="business_name" placeholder="请输入加盟商名称" autocomplete="off">
+		  </div>
+		  <button class="layui-btn" data-type="reload">搜索</button>
+		</div>
+    	<table class="layui-hide" id="business" lay-filter="business"></table>
+    </div>
+
+    <!-- 获取店铺列表 -->
+    <div class="shop_box" style="text-align: center;">
+    	<h2>店铺列表</h2>
+    	<div class="shop">
+		  搜索店铺：
+		  <div class="layui-inline">
+		    <input class="layui-input" name="id" id="shop_name" placeholder="请输入店铺名称" autocomplete="off">
+		  </div>
+		  <button class="layui-btn" data-type="reload">搜索</button>
+		</div>
+    	<table class="layui-hide" id="shop" lay-filter="shop"></table>
+    </div>
+
+    <!-- 数据列表 -->
+    <div class="data-table table-striped">
+	<table class="">
+    <thead>
+        <tr>
+		<!-- <th class="row-selected row-selected"><input class="check-all" type="checkbox"/></th> -->
+		<th class="">序号</th>
+		<th class="">商品名称</th>
+		<th class="">销售数量</th>
+		<th class="">销售金额</th>
+		<th class="">成本</th>
+		<th class="">利润</th>
+		</tr>
+    </thead>
+    <tbody>
+		<notempty name="list">
+		<volist name="list" id="vo" key="index">
+		<tr>
+            <!-- <td><input class="ids" type="checkbox" name="id[]" value="{$vo.order_id}" /></td> -->
+			<td>{$index} </td>
+			<td>{$vo.goods_name}</td>
+			<empty name="vo.small_num">
+				<td>0</td>
+				<else/>
+				<td style="color: red">{$vo.small_num}</td>
+			</empty>
+			<empty name="vo.small_cell_price">
+				<td>0.00</td>
+				<else/>
+				<td style="color: red">{$vo.small_cell_price}</td>
+			</empty>
+			<empty name="vo.small_cost">
+				<td>0.00</td>
+				<else/>
+				<td style="color: red">{$vo.small_cost}</td>
+			</empty>
+			<empty name="vo.small_profit">
+				<td>0.00</td>
+				<else/>
+				<td style="color: red">{$vo.small_profit}</td>
+			</empty>
+		</tr>
+		</volist>
+		<else/>
+		<td colspan="9" class="text-center"> aOh! 暂时还没有内容! </td>
+		</notempty>
+	</tbody>
+    </table>
+    <div style="display: flex;justify-content: space-between;width: 50%;margin: auto;height: 50px;line-height: 50px;font-size: 16px;font-weight: bold;color: #E7262C">
+    	<p>总销数量：{$allnum}</p>
+    	<p>总销售额：{$allsalesamount}</p>
+    	<p>总成本：{$allcost}</p>
+    	<p>总盈利：{$allprofit}</p>
+    </div>
+	</div>
+    <div class="page">
+        {$_page}
+    </div>
+</block>
+
+<block name="script">
+<link href="__STATIC__/datetimepicker/css/datetimepicker.css" rel="stylesheet" type="text/css">
+<php>if(C('COLOR_STYLE')=='blue_color') echo '<link href="__STATIC__/datetimepicker/css/datetimepicker_blue.css" rel="stylesheet" type="text/css">';</php>
+<link href="__STATIC__/datetimepicker/css/dropdown.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__STATIC__/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="__STATIC__/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+<script type="text/javascript">
+    highlight_subnav('{:U('Order/index')}');
+    statusflag = "<?php echo isset($_GET['status'])?$_GET['status']:" ";?>";
+    if (statusflag!="") {
+    	$("#status"+statusflag).attr("selected","selected");
+    }
+$(function(){
+	//搜索功能
+	$("#search").click(function(){
+		var url = $(this).attr('url');
+		// var status = $("#sch-sort-txt").attr("data");
+        var query  = $('.search-form').find('input').serialize();
+        query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g,'');
+        query = query.replace(/^&/g,'');
+		if(status != ''){
+			query +=  query;
+        }
+        if( url.indexOf('?')>0 ){
+            url += '&' + query;
+        }else{
+            url += '?' + query;
+        }
+		window.location.href = url;
+	});
+
+	/* 状态搜索子菜单 */
+	$(".search-form").find(".drop-down").hover(function(){
+		$("#sub-sch-menu").removeClass("hidden");
+	},function(){
+		$("#sub-sch-menu").addClass("hidden");
+	});
+	$("#sub-sch-menu li").find("a").each(function(){
+		$(this).click(function(){
+			var text = $(this).text();
+			$("#sch-sort-txt").text(text).attr("data",$(this).attr("value"));
+			$("#sub-sch-menu").addClass("hidden");
+		})
+	});
+
+    //回车自动提交
+    $('.search-form').find('input').keyup(function(event){
+        if(event.keyCode===13){
+            $("#search").click();
+        }
+    });
+
+    $('#time-start').datetimepicker({
+        format: 'yyyy-mm-dd',
+        language:"zh-CN",
+	    minView:2,
+	    autoclose:true
+    });
+
+    $('#datetimepicker').datetimepicker({
+       format: 'yyyy-mm-dd',
+        language:"zh-CN",
+        minView:2,
+        autoclose:true,
+        pickerPosition:'bottom-left'
+    })
+
+    $("#getdevice").click(function(e){
+		$(".device_box").toggle();
+		$(".business_box").hide();
+		$(".shop_box").hide();
+
+		console.log("focus");
+		e.stopPropagation();
+	}) 
+	$(".device_box").click(function(e){
+		$(".device_box").show();
+
+		console.log("device_box");
+		e.stopPropagation();
+	})
+	$(document).click(function(){
+		$(".device_box").hide();
+	})
+
+	$("#getbusiness").click(function(e){
+		$(".business_box").toggle();
+		$(".device_box").hide();
+		$(".shop_box").hide();
+		console.log("focus");
+		e.stopPropagation();
+	}) 
+	$(".business_box").click(function(e){
+		$(".business_box").show();
+		console.log("business_box");
+		e.stopPropagation();
+	})
+	$(document).click(function(){
+		$(".business_box").hide();
+	})
+
+	$("#getshop").click(function(e){
+		$(".shop_box").toggle();
+		$(".device_box").hide();
+		$(".business_box").hide();		
+		console.log("focus");
+		e.stopPropagation();
+	}) 
+	$(".shop_box").click(function(e){
+		$(".shop_box").show();
+		console.log("shop_box");
+		e.stopPropagation();
+	})
+	$(document).click(function(){
+		$(".shop_box").hide();
+	})
+
+	$("#status").change(function(e){
+		// console.log(e.currentTarget.value);
+		// status = e.currentTarget.value;
+		// $("#statusvalue").val(e.currentTarget.value);
+		window.location.href="__URL__/index/status/"+e.currentTarget.value
+	})
+
+
+})
+</script>
+<script>
+layui.use('table',function(){
+  var table = layui.table;
+  table.render({
+    elem: '#device'
+    ,url:'__URL__/devicelist'
+    ,limit:6
+    ,limits:[6]
+    ,cols: [[
+      {field:'id', width:"5%", title: 'ID'}
+      ,{field:'device_id', width:"14%", title: '设备ID号'}
+      ,{field:'device_name', width:"14%", title: '设备名称'}
+      ,{field:'city', width:"13%", title: '操作',toolbar: '#deviceop'}
+    ]]
+    ,id: 'deviceReload'
+    ,page: true
+  });
+   	table.on('tool(device)', function(obj){
+	    var data = obj.data;
+	    if(obj.event === 'choose'){
+	    	// layer.msg('ID：'+ data.device_id + ' 的查看操作');
+	    	$("#getdevice").val(data.device_id);
+	    }
+	  });
+
+   	  var $ = layui.$, active = {
+	    reload: function(){
+	      var device_id = $('#device_id');
+	      
+	      //执行重载
+	      table.reload('deviceReload', {
+	        page: {
+	          curr: 1 //重新从第 1 页开始
+	        }
+	        ,where: {
+	            device_id: device_id.val()
+	        }
+	      });
+	    }
+	  };
+  $('.device .layui-btn').on('click', function(){
+    var type = $(this).data('type');
+    active[type] ? active[type].call(this) : '';
+  });
+});
+</script>
+
+<script type="text/html" id="deviceop">
+  <!-- <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a> -->
+  <a class="layui-btn layui-btn-xs" lay-event="choose">选择</a>
+</script>
+
+<script>
+layui.use('table',function(){
+  var table = layui.table;
+  table.render({
+    elem: '#business'
+    ,url:'__URL__/businesslist'
+    ,limit:6
+    ,limits:[6]
+    ,cols: [[
+      {field:'business_id', width:"5%", title: 'ID'}
+      ,{field:'business_name', width:"14%", title: '加盟商名称'}
+      ,{field:'business_address', width:"14%", title: '加盟商地址'}
+      ,{field:'city', width:"13%", title: '操作',toolbar: '#businessop'}
+    ]]
+    ,id: 'bussinessReload'
+    ,page: true
+  });
+   	table.on('tool(business)', function(obj){
+	    var data = obj.data;
+	    if(obj.event === 'choose'){
+	    	// layer.msg('ID：'+ data.device_id + ' 的查看操作');
+	    	$("#getbusiness").val(data.business_name);
+	    }
+	  });
+
+   	  var $ = layui.$, active = {
+	    reload: function(){
+	      var business_name = $('#business_name');
+	      
+	      //执行重载
+	      table.reload('bussinessReload', {
+	        page: {
+	          curr: 1 //重新从第 1 页开始
+	        }
+	        ,where: {
+	            business_name: business_name.val()
+	        }
+	      });
+	    }
+	  };
+  $('.business .layui-btn').on('click', function(){
+    var type = $(this).data('type');
+    active[type] ? active[type].call(this) : '';
+  });
+});
+</script>
+
+<script type="text/html" id="businessop">
+  <!-- <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a> -->
+  <a class="layui-btn layui-btn-xs" lay-event="choose">选择</a>
+</script>
+
+<script>
+layui.use('table',function(){
+  var table = layui.table;
+  table.render({
+    elem: '#shop'
+    ,url:'__URL__/shoplist'
+    ,limit:6
+    ,limits:[6]
+    ,cols: [[
+      {field:'shop_id', width:"5%", title: 'ID'}
+      ,{field:'shop_name', width:"14%", title: '店铺名称'}
+      ,{field:'shop_address', width:"14%", title: '店铺地址'}
+      ,{field:'city', width:"13%", title: '操作',toolbar: '#shopop'}
+    ]]
+    ,id: 'shopReload'
+    ,page: true
+  });
+   	table.on('tool(shop)', function(obj){
+	    var data = obj.data;
+	    if(obj.event === 'choose'){
+	    	// layer.msg('ID：'+ data.device_id + ' 的查看操作');
+	    	$("#getshop").val(data.shop_name);
+	    }
+	  });
+
+   	  var $ = layui.$, active = {
+	    reload: function(){
+	      var shop_name = $('#shop_name');
+	      
+	      //执行重载
+	      table.reload('shopReload', {
+	        page: {
+	          curr: 1 //重新从第 1 页开始
+	        }
+	        ,where: {
+	            shop_name: shop_name.val()
+	        }
+	      });
+	    }
+	  };
+  $('.shop .layui-btn').on('click', function(){
+    var type = $(this).data('type');
+    active[type] ? active[type].call(this) : '';
+  });
+});
+</script>
+
+<script type="text/html" id="shopop">
+  <!-- <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a> -->
+  <a class="layui-btn layui-btn-xs" lay-event="choose">选择</a>
+</script>
+</block>
+

@@ -1,0 +1,832 @@
+[ 2018-05-03T15:39:06+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001430s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006289s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000931s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005621s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000555s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000460s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003457s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005904s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.004098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003870s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.001026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-05-03T15:39:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001675s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001962s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007744s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001488s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003746s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000820s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000726s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000729s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.006404s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003549s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.005152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000703s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003612s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2018-05-03T15:39:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001683s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002158s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004361s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000964s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004270s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000409s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000827s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.001161s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000800s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003534s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003752s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.005092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000847s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003907s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2018-05-03T15:39:08+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006525s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000874s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003741s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000623s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000464s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000573s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.004060s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004158s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.004065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000621s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003046s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2018-05-03T15:39:08+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001957s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002356s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005841s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.003327s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.001966s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005002s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000968s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000612s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000590s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000563s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.005687s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003927s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.004054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.002711s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003621s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2018-05-03T15:39:08+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005516s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006119s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007344s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002305s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004507s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.001005s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000603s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000423s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000864s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.001143s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.004992s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004521s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.003976s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000524s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003825s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2018-05-03T15:40:34+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001981s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002256s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006239s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000938s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.009042s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000908s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000911s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.001750s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000689s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.006897s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003376s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.004701s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000499s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.001999s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003805s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2018-05-03T15:40:35+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001775s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002127s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005846s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000661s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004859s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000800s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000509s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003091s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005190s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.003492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003674s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2018-05-03T15:44:18+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001689s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005741s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000854s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005261s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.001424s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000764s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000646s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000502s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003459s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.006671s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.004427s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000693s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003980s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.001301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_show C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2018-05-03T15:44:19+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002636s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.008038s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000584s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003270s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000364s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000250s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.004422s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003993s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.003396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003270s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_show C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2018-05-03T15:44:19+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005304s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000710s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006383s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000520s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000898s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000426s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003048s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004860s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.003551s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000423s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003004s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_show C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2018-05-03T15:44:29+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003701s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000514s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003181s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000567s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000689s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000673s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000600s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003631s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003783s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.003325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000701s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003163s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_show C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2018-05-03T15:44:30+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005598s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002948s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003854s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000668s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000542s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000493s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003391s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005815s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.004125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000673s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003700s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_show C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2018-05-03T15:44:30+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001389s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005444s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000631s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003874s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.001955s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000502s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000404s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003260s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003402s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.004820s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000911s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.002987s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_show C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2018-05-03T15:44:39+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002448s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002814s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004918s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001005s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005286s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000631s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000476s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000363s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003402s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005156s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.003608s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.004586s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_show C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-05-03T15:45:44+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001961s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002469s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005620s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002072s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003903s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000931s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000520s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000525s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000448s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003531s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004779s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.003959s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000552s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003733s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2018-05-03T15:45:44+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001307s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001669s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006231s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000711s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003638s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.001543s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.002260s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000964s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000616s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000425s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003289s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004281s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.005402s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000710s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003627s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2018-05-03T15:45:45+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001495s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005542s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000739s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005700s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.002474s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000620s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000545s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000483s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003487s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003702s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.002689s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.003699s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003677s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2018-05-03T15:45:45+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006059s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001082s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.001745s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004063s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000714s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000551s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000414s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003192s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005505s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.003499s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000672s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.003119s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2018-05-03T15:51:35+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002540s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006292s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002082s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/add%' ) LIMIT 1   [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004964s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000679s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000586s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000478s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.004046s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.003038s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004623s ]
+SQL: SELECT * FROM `mk_shop` WHERE ( status>=0 )  [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `mk_lock` [ RunTime:0.004264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_lock` WHERE ( `status` >= 0 ) LIMIT 1   [ RunTime:0.000656s ]
+SQL: SELECT `id`,`lock_id`,`shop_id`,`status`,`add_time`,`update_time` FROM `mk_lock` WHERE ( `status` >= 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `mk_grouplocks` [ RunTime:0.006267s ]
+SQL: SELECT * FROM `mk_grouplocks`  [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 91 行.
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\a72a92c230cc54e02477f8c172d75e69.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+

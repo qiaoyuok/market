@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>订单列表</title>
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+	<script type="text/javascript" src="__PUBLIC__/static/jquery-2.0.3.min.js"></script>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul.tabs{
+			width: 100%;
+			height: 35px;
+			margin: auto;
+			margin-top: 5px;
+			display: flex;
+			flex-direction: row;
+			
+		}
+
+		ul.tabs li{
+			width: 33.333%;
+			list-style: none;
+			font-size: 12px;
+			height: 35px;
+			line-height: 35px;
+			text-align: center;
+			box-sizing: border-box;
+			border-bottom: 1px solid #CECECE;
+			/*border-top: 1px solid #CECECE;*/
+		}
+
+		ul.tabs li.active{
+			color: #E7262C;
+			border-bottom: 2px solid #E7262C;
+		}
+
+		ul.lists{
+			width: 100%;
+			margin: auto;
+			margin-top: 5px;
+		}
+
+		ul.lists li{
+			width: 100%;
+			list-style: none;
+			font-size: 12px;
+			min-height: 22px;
+			box-sizing: border-box;
+			border-bottom: 8px solid #dbdbdb;
+			line-height: 35px;
+		}
+	</style>
+</head>
+<body style="padding: 0;margin: 0">
+	<div style="width: 100%;position: fixed;top: 0;background: #fff">
+		<!-- <h3 style="text-align: center;height: 40px;line-height: 40px;">我的订单</h3> -->
+		<ul class="tabs">
+
+			<li class="<?php echo !isset($_GET['status'])?'active':'none' ?>" onclick="javascript:;window.location.href='__URL__/orderlists'">全部</li>
+			<li class="<?php echo I('status')==1?'active':'none' ?>" onclick="javascript:;window.location.href='__URL__/orderlists/status/1'">已完成</li>
+			<li class="<?php echo isset($_GET['status'])&&I('status')==0?'active':'none' ?>" onclick="javascript:;window.location.href='__URL__/orderlists/status/0'">待支付</li>
+		</ul>
+	</div>
+	<div style="width: 100%;margin-top: 40px;">
+		<notempty name="orderlists">
+			<ul class="lists">
+
+				<volist name="orderlists" id="vo">
+					<li>
+						<p style="height: 35px;display: flex;padding: 0 10px;justify-content: space-between;background: #fff;border-bottom: 1px solid #CECECE;box-sizing: border-box;">
+							<span>订单时间：{$vo.add_time|date="Y-m-d H:i:s",###}</span>
+							<span>
+								<eq name="vo.status" value="1">
+									<b style="color: #5FB878">已完成</b>
+									<else/>
+									<b style="color: gray">待支付</b>
+								</eq>
+							</span>
+						</p>
+						<div onclick="javascript:;window.location.href='__URL__/orderdetail/order_id/{$vo.order_id}'" style="display: flex;height:50px;align-items: center;border-bottom: 1px solid #CECECE;padding: 0 5px 0 10px;">
+							<p style="width: 75%;display: flex;align-items: center;">
+								{$vo.goods_name|cut}
+							</p>
+							<p style="width: 25%;display: flex;align-items: center;justify-content: flex-end;"><span>共{$vo.allnum}件</span><img style="width: 25px;" src="__PUBLIC__/Admin/images/comein.png"></p>
+						</div>
+						<p style="display: flex;height: 35px;line-height: 35px;justify-content: space-between;padding: 0 10px;">
+							<a href="__URL__/orderdetail/order_id/{$vo.order_id}" style="text-decoration: none;color: #0ba41f">查看详情</a>
+							<span>订单金额: <b style="color: #FF5722">{$vo.allcount}</b></span>
+						</p>
+					</li>
+
+				</volist>
+				<!-- <?php
+				foreach($orderlists as $k=>$v){
+
+						$goods_name = "";
+						foreach($v as $k1=>$v1){
+							if($k1 == "order_detail"){ $num = 0;?>
+						<li onclick="javascript:;window.location.href='__URL__/orderdetail/order_id/<?php echo $v['order_id'];?>'">
+							<?php
+								$count = count($v1['goods_detail']);
+								foreach($v1['goods_detail'] as $k2=>$v2){
+									$num++;
+									if($count!=$num){
+									$goods_name .= $v2['goods_name']." / ";
+									}else{
+									$goods_name .= $v2['goods_name'];
+									}
+							}?>
+							<span style="width: 70%;font-size: 14px;float: left;margin-bottom: 5px;overflow: hidden;">
+								<?php 
+									if(mb_strlen($goods_name,"utf-8")>45){
+										echo mb_substr($goods_name,0,45,"utf-8")."...";
+									}else{
+									echo $goods_name;
+									}
+								?>
+							</span>
+							<span style="width: 30%;float: left;text-align: right;margin-bottom: 5px;color: gray;">
+								<b style="color: #E7262C"><?php echo $v1['allcount'];?>￥</b><br/>
+								共<?php echo $v1['allnum'];?>件
+
+							</span>
+							<span style="width:70%;float: left;color: gray;"><?php echo date("Y-m-d H:i:s",$v['add_time']);?></span>
+							<span style="width:30%;float: right;text-align: right;"><?php 
+									if($v['status'] == 0){
+										echo "<b style='color: #E7262C;'>待支付</b>";
+									}elseif($v['status'] == 1){
+										echo "<b style='color: lightgreen;'>已完成</b>";
+									}
+								?></span>
+						</li><?php }}} ?> -->
+			</ul>
+			<else/><p style="width: 100%;height: 35px;margin-top: 150px;color: gray;text-align: center;">暂无订单</p>
+		</notempty>
+	</div>
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>

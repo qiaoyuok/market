@@ -1,0 +1,1905 @@
+[ 2018-05-05T15:39:43+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003858s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004238s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+
+[ 2018-05-05T15:39:43+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003634s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2018-05-05T15:39:43+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002441s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002791s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2018-05-05T15:39:49+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/verify.html&random=0.9194912858247977
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002617s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-05-05T15:39:55+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005228s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005774s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+
+[ 2018-05-05T15:39:55+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/verify.html&random=0.6647833299935446
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002806s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003206s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001818s ]
+
+[ 2018-05-05T15:40:02+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002616s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `mk_ucenter_member` [ RunTime:0.035271s ]
+SQL: SELECT * FROM `mk_ucenter_member` WHERE ( `username` = 'qiaoyuok' ) LIMIT 1   [ RunTime:0.002677s ]
+SQL: UPDATE `mk_ucenter_member` SET `last_login_time`=1525506002,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.011985s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.029366s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`business_id`,`manager` FROM `mk_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.008271s ]
+SQL: SHOW COLUMNS FROM `mk_action` [ RunTime:0.041901s ]
+SQL: SELECT * FROM `mk_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.002724s ]
+SQL: UPDATE `mk_member` SET `login`=`login`+1,`last_login_time`=1525506002,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.014258s ]
+
+[ 2018-05-05T15:40:02+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002481s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.023870s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.020473s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%User/index%' ) LIMIT 1   [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006333s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.001830s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 16 )  [ RunTime:0.016782s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.001048s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001050s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001647s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.004059s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.010742s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.005805s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_member m,mk_business b WHERE ( m.status>=0 and m.business_id = b.business_id and b.business_id>1 ) LIMIT 1   [ RunTime:0.027476s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.006283s ]
+SQL: SELECT m.*,b.business_name,b.business_address FROM mk_member m,mk_business b WHERE ( m.status>=0 and m.business_id = b.business_id and b.business_id>1 ) ORDER BY m.uid asc LIMIT 0,10   [ RunTime:0.002421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: meta_title C:\Users\15899\Desktop\market\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 5 行.
+NOTIC: [8] Undefined variable: status C:\Users\15899\Desktop\market\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 279 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2018-05-05T15:47:23+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/updatePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003538s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004063s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004479s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001164s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%User/updatepassword%' ) LIMIT 1   [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005011s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=108 ) LIMIT 1   [ RunTime:0.000933s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.000673s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 16 )  [ RunTime:0.000823s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.000646s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000682s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000591s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.345252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.345345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-05T16:06:57+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/updatePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005860s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003434s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000808s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%User/updatepassword%' ) LIMIT 1   [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003495s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=108 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 16 )  [ RunTime:0.000496s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.000370s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000638s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000485s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2018-05-05T16:13:23+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/updatePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005470s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006271s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006072s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002327s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%User/updatepassword%' ) LIMIT 1   [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003882s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=108 ) LIMIT 1   [ RunTime:0.000648s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 16 )  [ RunTime:0.000575s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.000536s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000928s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000614s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2018-05-05T16:13:23+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/updatePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002259s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002750s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.009361s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001714s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%User/updatepassword%' ) LIMIT 1   [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004089s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=108 ) LIMIT 1   [ RunTime:0.001052s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.000888s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 16 )  [ RunTime:0.001219s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.000986s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.003387s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001324s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2018-05-05T16:13:23+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/updatePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006672s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007093s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007013s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001347s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%User/updatepassword%' ) LIMIT 1   [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.008362s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=108 ) LIMIT 1   [ RunTime:0.001953s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.001100s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 16 )  [ RunTime:0.001186s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.000902s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001159s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002170s ]
+
+[ 2018-05-05T17:16:54+08:00 ] 127.0.0.1 /index.php?s=/Admin/menu/updatePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003566s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.008186s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000887s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/updatepassword%' ) LIMIT 1   [ RunTime:0.000544s ]
+ERR: 非法操作:updatepassword
+
+[ 2018-05-05T17:16:59+08:00 ] 127.0.0.1 /index.php?s=/Admin/menu/
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004666s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003277s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000572s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007711s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.000715s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2018-05-05T17:17:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003890s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006018s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002856s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/index%' ) LIMIT 1   [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004253s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=171 ) LIMIT 1   [ RunTime:0.000778s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 171 )  [ RunTime:0.000951s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 171 ) AND ( `hide` = 0 )  [ RunTime:0.001191s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 171 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `mk_order` [ RunTime:0.107951s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.004263s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `mk_order` [ RunTime:0.004681s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_order o,mk_shop s,mk_business b,mk_user u WHERE ( o.uid = u.uid and o.shop_id = s.shop_id and s.business_id = b.business_id and o.status>=0 ) LIMIT 1   [ RunTime:0.024637s ]
+SQL: SHOW COLUMNS FROM `mk_order` [ RunTime:0.003893s ]
+SQL: SELECT o.*,u.name,b.business_name,s.shop_name FROM mk_order o,mk_shop s,mk_business b,mk_user u WHERE ( o.uid = u.uid and o.shop_id = s.shop_id and s.business_id = b.business_id and o.status>=0 ) ORDER BY o.add_time desc LIMIT 0,10   [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: uid C:\Users\15899\Desktop\market\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 190 行.
+NOTIC: [8] Undefined variable: uid C:\Users\15899\Desktop\market\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 205 行.
+NOTIC: [8] Undefined variable: uid C:\Users\15899\Desktop\market\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 205 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2018-05-05T17:17:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/devicelist&page=1&limit=6
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002425s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004381s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001738s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/devicelist%' ) LIMIT 1   [ RunTime:0.000990s ]
+NOTIC: [8] Undefined index: device_id C:\Users\15899\Desktop\market\Application\Admin\Controller\OrderController.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.010580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_device` WHERE ( status >=0 and device_id like '%%' ) LIMIT 1   [ RunTime:0.004150s ]
+SQL: SELECT * FROM `mk_device` WHERE ( status >=0 and device_id like '%%' ) LIMIT 0,6   [ RunTime:0.001478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2018-05-05T17:17:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/businesslist&page=1&limit=6
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002352s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002734s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003951s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001946s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/businesslist%' ) LIMIT 1   [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `mk_business` [ RunTime:0.005063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_business` WHERE ( status >=0 and business_id>1 and business_name like '%%' ) LIMIT 1   [ RunTime:0.000767s ]
+SQL: SELECT * FROM `mk_business` WHERE ( status >=0 and business_id>1 and business_name like '%%' ) LIMIT 0,6   [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2018-05-05T17:17:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/shoplist&page=1&limit=6
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002287s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002717s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003197s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000796s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/shoplist%' ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003699s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_shop` WHERE ( status >=0 and shop_name like '%%' ) LIMIT 1   [ RunTime:0.000945s ]
+NOTIC: [8] Undefined variable: business_count C:\Users\15899\Desktop\market\Application\Admin\Controller\OrderController.class.php 第 239 行.
+SQL: SELECT * FROM `mk_shop` WHERE ( status >=0 and shop_name like '%%' ) LIMIT 0,6   [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-05-05T17:17:08+08:00 ] 127.0.0.1 /index.php?s=/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002370s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002659s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004433s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.003135s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Goods/index%' ) LIMIT 1   [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004506s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.001882s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 134 )  [ RunTime:0.002560s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 134 ) AND ( `hide` = 0 )  [ RunTime:0.000914s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '货品管理' ) AND ( `pid` = 134 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.131706s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.005045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_goods g,mk_cate c WHERE ( g.cate_id = c.cate_id and g.status>=0 ) LIMIT 1   [ RunTime:0.014278s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.004752s ]
+SQL: SELECT g.*,c.cate_name FROM mk_goods g,mk_cate c WHERE ( g.cate_id = c.cate_id and g.status>=0 ) ORDER BY g.add_time desc LIMIT 0,10   [ RunTime:0.002156s ]
+SQL: SHOW COLUMNS FROM `mk_cate` [ RunTime:0.007597s ]
+SQL: SELECT * FROM `mk_cate` WHERE ( `status` >= 0 ) ORDER BY cate_id asc  [ RunTime:0.001994s ]
+NOTIC: [8] Undefined variable: cate_id C:\Users\15899\Desktop\market\Application\Admin\Controller\GoodsController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-05-05T17:17:09+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002366s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003751s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001261s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/index%' ) LIMIT 1   [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005334s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000711s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.001383s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.001105s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.004790s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003794s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003958s ]
+SQL: SELECT `shop_id`,`shop_name` FROM `mk_shop` WHERE ( status >= 0 ) ORDER BY add_time desc  [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.005037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_device d,mk_shop s WHERE ( d.shop_id = s.shop_id AND d.status >= 0 ) LIMIT 1   [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.004014s ]
+SQL: SELECT d.*,s.shop_name,s.shop_address FROM mk_device d,mk_shop s WHERE ( d.shop_id = s.shop_id AND d.status >= 0 ) ORDER BY d.add_time desc LIMIT 0,10   [ RunTime:0.001181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 100 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001401s ]
+
+[ 2018-05-05T17:29:39+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002809s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003423s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005132s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000476s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/index%' ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003039s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=171 ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 171 )  [ RunTime:0.000523s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 171 ) AND ( `hide` = 0 )  [ RunTime:0.000298s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 171 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `mk_order` [ RunTime:0.005234s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.002990s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `mk_order` [ RunTime:0.003432s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_order o,mk_shop s,mk_business b,mk_user u WHERE ( o.uid = u.uid and o.shop_id = s.shop_id and s.business_id = b.business_id and o.status>=0 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `mk_order` [ RunTime:0.003312s ]
+SQL: SELECT o.*,u.name,b.business_name,s.shop_name FROM mk_order o,mk_shop s,mk_business b,mk_user u WHERE ( o.uid = u.uid and o.shop_id = s.shop_id and s.business_id = b.business_id and o.status>=0 ) ORDER BY o.add_time desc LIMIT 0,10   [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: uid C:\Users\15899\Desktop\market\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 190 行.
+NOTIC: [8] Undefined variable: uid C:\Users\15899\Desktop\market\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 205 行.
+NOTIC: [8] Undefined variable: uid C:\Users\15899\Desktop\market\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 205 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2018-05-05T17:29:39+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/devicelist&page=1&limit=6
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002421s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002784s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.002746s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000498s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/devicelist%' ) LIMIT 1   [ RunTime:0.000327s ]
+NOTIC: [8] Undefined index: device_id C:\Users\15899\Desktop\market\Application\Admin\Controller\OrderController.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.006432s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_device` WHERE ( status >=0 and device_id like '%%' ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT * FROM `mk_device` WHERE ( status >=0 and device_id like '%%' ) LIMIT 0,6   [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2018-05-05T17:29:39+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/businesslist&page=1&limit=6
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003532s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003562s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000942s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/businesslist%' ) LIMIT 1   [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `mk_business` [ RunTime:0.004998s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_business` WHERE ( status >=0 and business_id>1 and business_name like '%%' ) LIMIT 1   [ RunTime:0.001075s ]
+SQL: SELECT * FROM `mk_business` WHERE ( status >=0 and business_id>1 and business_name like '%%' ) LIMIT 0,6   [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2018-05-05T17:29:39+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/shoplist&page=1&limit=6
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004449s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004929s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004014s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001106s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/shoplist%' ) LIMIT 1   [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_shop` WHERE ( status >=0 and shop_name like '%%' ) LIMIT 1   [ RunTime:0.001270s ]
+NOTIC: [8] Undefined variable: business_count C:\Users\15899\Desktop\market\Application\Admin\Controller\OrderController.class.php 第 239 行.
+SQL: SELECT * FROM `mk_shop` WHERE ( status >=0 and shop_name like '%%' ) LIMIT 0,6   [ RunTime:0.002181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2018-05-05T17:29:40+08:00 ] 127.0.0.1 /index.php?s=/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002391s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006647s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001246s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Goods/index%' ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004172s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 134 )  [ RunTime:0.000745s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 134 ) AND ( `hide` = 0 )  [ RunTime:0.000570s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '货品管理' ) AND ( `pid` = 134 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.004106s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.004015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_goods g,mk_cate c WHERE ( g.cate_id = c.cate_id and g.status>=0 ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.004930s ]
+SQL: SELECT g.*,c.cate_name FROM mk_goods g,mk_cate c WHERE ( g.cate_id = c.cate_id and g.status>=0 ) ORDER BY g.add_time desc LIMIT 0,10   [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `mk_cate` [ RunTime:0.004048s ]
+SQL: SELECT * FROM `mk_cate` WHERE ( `status` >= 0 ) ORDER BY cate_id asc  [ RunTime:0.000791s ]
+NOTIC: [8] Undefined variable: cate_id C:\Users\15899\Desktop\market\Application\Admin\Controller\GoodsController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2018-05-05T17:29:40+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004424s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004712s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005843s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001027s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/index%' ) LIMIT 1   [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007136s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=171 ) LIMIT 1   [ RunTime:0.001124s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 171 )  [ RunTime:0.001200s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 171 ) AND ( `hide` = 0 )  [ RunTime:0.001181s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 171 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `mk_order` [ RunTime:0.004697s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.005845s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `mk_order` [ RunTime:0.003538s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_order o,mk_shop s,mk_business b,mk_user u WHERE ( o.uid = u.uid and o.shop_id = s.shop_id and s.business_id = b.business_id and o.status>=0 ) LIMIT 1   [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `mk_order` [ RunTime:0.003503s ]
+SQL: SELECT o.*,u.name,b.business_name,s.shop_name FROM mk_order o,mk_shop s,mk_business b,mk_user u WHERE ( o.uid = u.uid and o.shop_id = s.shop_id and s.business_id = b.business_id and o.status>=0 ) ORDER BY o.add_time desc LIMIT 0,10   [ RunTime:0.000954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: uid C:\Users\15899\Desktop\market\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 190 行.
+NOTIC: [8] Undefined variable: uid C:\Users\15899\Desktop\market\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 205 行.
+NOTIC: [8] Undefined variable: uid C:\Users\15899\Desktop\market\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 205 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2018-05-05T17:29:41+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/businesslist&page=1&limit=6
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002949s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003416s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.009779s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001686s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/businesslist%' ) LIMIT 1   [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `mk_business` [ RunTime:0.007541s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_business` WHERE ( status >=0 and business_id>1 and business_name like '%%' ) LIMIT 1   [ RunTime:0.000888s ]
+SQL: SELECT * FROM `mk_business` WHERE ( status >=0 and business_id>1 and business_name like '%%' ) LIMIT 0,6   [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2018-05-05T17:29:41+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/shoplist&page=1&limit=6
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002760s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003624s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000938s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/shoplist%' ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.006364s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_shop` WHERE ( status >=0 and shop_name like '%%' ) LIMIT 1   [ RunTime:0.000910s ]
+NOTIC: [8] Undefined variable: business_count C:\Users\15899\Desktop\market\Application\Admin\Controller\OrderController.class.php 第 239 行.
+SQL: SELECT * FROM `mk_shop` WHERE ( status >=0 and shop_name like '%%' ) LIMIT 0,6   [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2018-05-05T17:29:41+08:00 ] 127.0.0.1 /index.php?s=/Admin/Order/devicelist&page=1&limit=6
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003985s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004455s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003602s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000683s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Order/devicelist%' ) LIMIT 1   [ RunTime:0.000852s ]
+NOTIC: [8] Undefined index: device_id C:\Users\15899\Desktop\market\Application\Admin\Controller\OrderController.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.003528s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mk_device` WHERE ( status >=0 and device_id like '%%' ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SELECT * FROM `mk_device` WHERE ( status >=0 and device_id like '%%' ) LIMIT 0,6   [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2018-05-05T17:29:41+08:00 ] 127.0.0.1 /index.php?s=/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002456s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007349s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001539s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Goods/index%' ) LIMIT 1   [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004829s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.002162s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 134 )  [ RunTime:0.002683s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 134 ) AND ( `hide` = 0 )  [ RunTime:0.001380s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '货品管理' ) AND ( `pid` = 134 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001903s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.003856s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.005127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_goods g,mk_cate c WHERE ( g.cate_id = c.cate_id and g.status>=0 ) LIMIT 1   [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.005228s ]
+SQL: SELECT g.*,c.cate_name FROM mk_goods g,mk_cate c WHERE ( g.cate_id = c.cate_id and g.status>=0 ) ORDER BY g.add_time desc LIMIT 0,10   [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `mk_cate` [ RunTime:0.005252s ]
+SQL: SELECT * FROM `mk_cate` WHERE ( `status` >= 0 ) ORDER BY cate_id asc  [ RunTime:0.002995s ]
+NOTIC: [8] Undefined variable: cate_id C:\Users\15899\Desktop\market\Application\Admin\Controller\GoodsController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2018-05-05T17:29:41+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001938s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002504s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007089s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001273s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/index%' ) LIMIT 1   [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004810s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.001025s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.002310s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.003329s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.005635s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.004014s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005275s ]
+SQL: SELECT `shop_id`,`shop_name` FROM `mk_shop` WHERE ( status >= 0 ) ORDER BY add_time desc  [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.004549s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_device d,mk_shop s WHERE ( d.shop_id = s.shop_id AND d.status >= 0 ) LIMIT 1   [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.005301s ]
+SQL: SELECT d.*,s.shop_name,s.shop_address FROM mk_device d,mk_shop s WHERE ( d.shop_id = s.shop_id AND d.status >= 0 ) ORDER BY d.add_time desc LIMIT 0,10   [ RunTime:0.002373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 100 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2018-05-05T17:29:42+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001846s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005598s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001101s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005075s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=128 ) LIMIT 1   [ RunTime:0.000969s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 128 )  [ RunTime:0.000865s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 128 ) AND ( `hide` = 0 )  [ RunTime:0.000814s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '店面管理' ) AND ( `pid` = 128 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002739s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005257s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.004941s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004904s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_shop as s,mk_business as b WHERE ( s.status >=0 and s.business_id = b.business_id ) LIMIT 1   [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003630s ]
+SQL: SELECT s.*,b.business_name,b.business_address,b.business_tel FROM mk_shop as s,mk_business as b WHERE ( s.status >=0 and s.business_id = b.business_id ) ORDER BY s.add_time desc LIMIT 0,10   [ RunTime:0.001307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: meta_title C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 5 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 135 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 135 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 135 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2018-05-05T17:29:42+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003432s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003803s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006205s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001800s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%User/index%' ) LIMIT 1   [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005674s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 16 )  [ RunTime:0.000642s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.000468s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000494s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000468s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003554s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.004567s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_member m,mk_business b WHERE ( m.status>=0 and m.business_id = b.business_id and b.business_id>1 ) LIMIT 1   [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.006130s ]
+SQL: SELECT m.*,b.business_name,b.business_address FROM mk_member m,mk_business b WHERE ( m.status>=0 and m.business_id = b.business_id and b.business_id>1 ) ORDER BY m.uid asc LIMIT 0,10   [ RunTime:0.002321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined variable: meta_title C:\Users\15899\Desktop\market\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 5 行.
+NOTIC: [8] Undefined variable: status C:\Users\15899\Desktop\market\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 279 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2018-05-05T17:30:52+08:00 ] 127.0.0.1 /index.php?s=/Admin/menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003884s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004408s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005555s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000461s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003529s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.000800s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.001032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2018-05-05T17:30:55+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/toogleHide/id/68/value/0.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002713s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003075s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007444s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001135s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/tooglehide%' ) LIMIT 1   [ RunTime:0.000673s ]
+NOTIC: [2] Missing argument 4 for Admin\Controller\AdminController::editRow(), called in C:\Users\15899\Desktop\market\Application\Admin\Controller\MenuController.class.php on line 144 and defined C:\Users\15899\Desktop\market\Application\Admin\Controller\AdminController.class.php 第 138 行.
+NOTIC: [8] Undefined variable: msg C:\Users\15899\Desktop\market\Application\Admin\Controller\AdminController.class.php 第 142 行.
+SQL: UPDATE `mk_menu` SET `hide`=0 WHERE ( `id` = 68 ) [ RunTime:0.001289s ]
+
+[ 2018-05-05T17:30:56+08:00 ] 127.0.0.1 /index.php?s=/Admin/menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002632s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003070s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004983s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000722s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003153s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.000509s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000412s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000470s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000405s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000446s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.000646s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2018-05-05T18:38:10+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index/pid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002471s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002865s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004452s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001113s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007023s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000622s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.000633s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000821s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000973s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000581s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000512s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.000581s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.000755s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 16 ) ORDER BY sort asc,id asc  [ RunTime:0.000837s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2018-05-05T18:39:18+08:00 ] 127.0.0.1 /index.php?s=/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001903s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002223s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004775s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001605s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Goods/index%' ) LIMIT 1   [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005789s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.001582s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 134 )  [ RunTime:0.001025s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 134 ) AND ( `hide` = 0 )  [ RunTime:0.001414s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '货品管理' ) AND ( `pid` = 134 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.004941s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.004156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_goods g,mk_cate c WHERE ( g.cate_id = c.cate_id and g.status>=0 ) LIMIT 1   [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `mk_goods` [ RunTime:0.005529s ]
+SQL: SELECT g.*,c.cate_name FROM mk_goods g,mk_cate c WHERE ( g.cate_id = c.cate_id and g.status>=0 ) ORDER BY g.add_time desc LIMIT 0,10   [ RunTime:0.001883s ]
+SQL: SHOW COLUMNS FROM `mk_cate` [ RunTime:0.004419s ]
+SQL: SELECT * FROM `mk_cate` WHERE ( `status` >= 0 ) ORDER BY cate_id asc  [ RunTime:0.001353s ]
+NOTIC: [8] Undefined variable: cate_id C:\Users\15899\Desktop\market\Application\Admin\Controller\GoodsController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: cate_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 101 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 140 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\7460c3bd08e8aaf3e719467d6ea19bd3.php 第 142 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2018-05-05T18:39:19+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003772s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004144s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006099s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000896s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/index%' ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005004s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000994s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.001200s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.001063s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002379s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.007646s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.004076s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005482s ]
+SQL: SELECT `shop_id`,`shop_name` FROM `mk_shop` WHERE ( status >= 0 ) ORDER BY add_time desc  [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.003892s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_device d,mk_shop s WHERE ( d.shop_id = s.shop_id AND d.status >= 0 ) LIMIT 1   [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.004807s ]
+SQL: SELECT d.*,s.shop_name,s.shop_address FROM mk_device d,mk_shop s WHERE ( d.shop_id = s.shop_id AND d.status >= 0 ) ORDER BY d.add_time desc LIMIT 0,10   [ RunTime:0.002684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 100 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2018-05-05T18:39:20+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001815s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002186s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007166s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002710s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.003913s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005873s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=128 ) LIMIT 1   [ RunTime:0.001326s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 128 )  [ RunTime:0.000814s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 128 ) AND ( `hide` = 0 )  [ RunTime:0.000674s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '店面管理' ) AND ( `pid` = 128 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005800s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003765s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004673s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_shop as s,mk_business as b WHERE ( s.status >=0 and s.business_id = b.business_id ) LIMIT 1   [ RunTime:0.002563s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.005428s ]
+SQL: SELECT s.*,b.business_name,b.business_address,b.business_tel FROM mk_shop as s,mk_business as b WHERE ( s.status >=0 and s.business_id = b.business_id ) ORDER BY s.add_time desc LIMIT 0,10   [ RunTime:0.001375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: meta_title C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 5 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 135 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 135 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 135 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2018-05-05T18:39:21+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001916s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002232s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003991s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001098s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%User/index%' ) LIMIT 1   [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004114s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.003126s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 16 )  [ RunTime:0.001838s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.001274s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001303s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000974s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002352s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.006396s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003757s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.003813s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_member m,mk_business b WHERE ( m.status>=0 and m.business_id = b.business_id and b.business_id>1 ) LIMIT 1   [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.006209s ]
+SQL: SELECT m.*,b.business_name,b.business_address FROM mk_member m,mk_business b WHERE ( m.status>=0 and m.business_id = b.business_id and b.business_id>1 ) ORDER BY m.uid asc LIMIT 0,10   [ RunTime:0.001398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: meta_title C:\Users\15899\Desktop\market\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 5 行.
+NOTIC: [8] Undefined variable: status C:\Users\15899\Desktop\market\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 279 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2018-05-05T18:39:26+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002533s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002939s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004027s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001871s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005286s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=128 ) LIMIT 1   [ RunTime:0.000701s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 128 )  [ RunTime:0.000651s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 128 ) AND ( `hide` = 0 )  [ RunTime:0.000481s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '店面管理' ) AND ( `pid` = 128 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.003390s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.003786s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_shop as s,mk_business as b WHERE ( s.status >=0 and s.business_id = b.business_id ) LIMIT 1   [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004196s ]
+SQL: SELECT s.*,b.business_name,b.business_address,b.business_tel FROM mk_shop as s,mk_business as b WHERE ( s.status >=0 and s.business_id = b.business_id ) ORDER BY s.add_time desc LIMIT 0,10   [ RunTime:0.001436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: meta_title C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 5 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 135 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 135 行.
+NOTIC: [8] Undefined index: id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 135 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-05-05T18:39:27+08:00 ] 127.0.0.1 /index.php?s=/Admin/Device/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001864s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002181s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005287s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000788s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Device/index%' ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003661s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=124 ) LIMIT 1   [ RunTime:0.000639s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 124 )  [ RunTime:0.000633s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 124 ) AND ( `hide` = 0 )  [ RunTime:0.000576s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '设备管理' ) AND ( `pid` = 124 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.003559s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.006026s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `mk_shop` [ RunTime:0.004028s ]
+SQL: SELECT `shop_id`,`shop_name` FROM `mk_shop` WHERE ( status >= 0 ) ORDER BY add_time desc  [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.005871s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_device d,mk_shop s WHERE ( d.shop_id = s.shop_id AND d.status >= 0 ) LIMIT 1   [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `mk_device` [ RunTime:0.004024s ]
+SQL: SELECT d.*,s.shop_name,s.shop_address FROM mk_device d,mk_shop s WHERE ( d.shop_id = s.shop_id AND d.status >= 0 ) ORDER BY d.add_time desc LIMIT 0,10   [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: is_hidden C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 100 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\15899\Desktop\market\Runtime\Cache\Admin\41b529fcda1c7909d8584fcefd19a8bc.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2018-05-05T18:40:37+08:00 ] 127.0.0.1 /index.php?s=/Admin/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002622s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003110s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003605s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001112s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Config/group%' ) LIMIT 1   [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004875s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.001038s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.002131s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.001545s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001673s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001542s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `mk_config` [ RunTime:0.356019s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `mk_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.004951s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2018-05-05T18:40:53+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002748s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003442s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005846s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000768s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004075s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.001341s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.001211s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.000769s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000472s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000565s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000504s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000553s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.000691s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-05-05T19:51:34+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index/pid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001983s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002272s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006884s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001944s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003568s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000625s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.000974s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000977s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001210s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001181s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000743s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.000821s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.001423s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 16 ) ORDER BY sort asc,id asc  [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2018-05-05T22:17:43+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/add/pid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004426s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004806s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007995s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001589s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/add%' ) LIMIT 1   [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005640s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=96 ) LIMIT 1   [ RunTime:0.001045s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000822s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000524s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.000806s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000582s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000677s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000684s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000704s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu`  [ RunTime:0.001779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2018-05-05T23:20:02+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004975s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005507s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2018-05-05T23:20:02+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002453s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2018-05-05T23:20:06+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/add/pid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003255s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003763s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+
+[ 2018-05-05T23:20:06+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002716s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003048s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2018-05-05T23:20:06+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002706s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2018-05-05T23:20:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002651s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `mk_ucenter_member` [ RunTime:0.006714s ]
+SQL: SELECT * FROM `mk_ucenter_member` WHERE ( `username` = 'qiaoyuok' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: UPDATE `mk_ucenter_member` SET `last_login_time`=1525533612,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.005602s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`business_id`,`manager` FROM `mk_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `mk_action` [ RunTime:0.005862s ]
+SQL: SELECT * FROM `mk_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.001014s ]
+SQL: UPDATE `mk_member` SET `login`=`login`+1,`last_login_time`=1525533612,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.000521s ]
+
+[ 2018-05-05T23:20:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002695s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003764s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007616s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000612s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%User/index%' ) LIMIT 1   [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004522s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.000558s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 16 )  [ RunTime:0.000528s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.000361s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000408s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000431s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.006618s ]
+SQL: SHOW COLUMNS FROM `mk_auth_group_access` [ RunTime:0.004506s ]
+SQL: SELECT * FROM `mk_auth_group_access` WHERE ( group_id = 1 )  [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.005828s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mk_member m,mk_business b WHERE ( m.status>=0 and m.business_id = b.business_id and b.business_id>1 ) LIMIT 1   [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `mk_member` [ RunTime:0.005665s ]
+SQL: SELECT m.*,b.business_name,b.business_address FROM mk_member m,mk_business b WHERE ( m.status>=0 and m.business_id = b.business_id and b.business_id>1 ) ORDER BY m.uid asc LIMIT 0,10   [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: meta_title C:\Users\15899\Desktop\market\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 5 行.
+NOTIC: [8] Undefined variable: status C:\Users\15899\Desktop\market\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 279 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2018-05-05T23:20:14+08:00 ] 127.0.0.1 /index.php?s=/Admin/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002414s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002702s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.008178s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.004988s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Config/group%' ) LIMIT 1   [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005874s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.001295s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.002846s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.001836s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000675s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000520s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `mk_config` [ RunTime:0.005198s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `mk_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2018-05-05T23:20:18+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003615s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006849s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001055s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004903s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.002837s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.001684s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.001373s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.001400s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002793s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001494s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000970s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.001881s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.002212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002209s ]
+
+[ 2018-05-05T23:20:19+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/add/pid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002880s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003214s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.010967s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001784s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/add%' ) LIMIT 1   [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004501s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=96 ) LIMIT 1   [ RunTime:0.001405s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.001379s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.001691s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.001531s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.002677s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002153s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002563s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001716s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu`  [ RunTime:0.001297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2018-05-05T23:20:26+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/add.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004446s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006071s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001511s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/add%' ) LIMIT 1   [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006587s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=96 ) LIMIT 1   [ RunTime:0.001139s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000684s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.000649s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000732s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000755s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001245s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000719s ]
+SQL: INSERT INTO `mk_menu` (`title`,`sort`,`url`,`pid`,`group`,`hide`,`is_dev`,`tip`,`id`) VALUES ('vsds ',0,'辅导费',0,'',0,0,'',0) [ RunTime:0.002148s ]
+SQL: SHOW COLUMNS FROM `mk_action` [ RunTime:0.007556s ]
+SQL: SELECT * FROM `mk_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `mk_action_log` [ RunTime:0.088953s ]
+SQL: INSERT INTO `mk_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',175,1525533626,'操作url：/index.php?s=/Admin/Menu/add.html') [ RunTime:0.015149s ]
+
+[ 2018-05-05T23:20:28+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002988s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003471s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007239s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002615s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.004044s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000454s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.000561s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000469s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000527s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000497s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000578s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.000856s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.001194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2018-05-05T23:20:30+08:00 ] 127.0.0.1 /index.php?s=/Admin/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005725s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006190s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005823s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001408s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Config/group%' ) LIMIT 1   [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.003401s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.000664s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000628s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000677s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000534s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `mk_config` [ RunTime:0.003397s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `mk_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.001392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2018-05-05T23:20:34+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002644s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.008571s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000899s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007163s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.001654s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.001216s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.001277s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000767s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000900s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000595s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000626s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.002026s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.002535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2018-05-05T23:20:35+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/%E8%BE%85%E5%AF%BC%E8%B4%B9.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002410s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002749s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.006276s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001358s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/辅导费%' ) LIMIT 1   [ RunTime:0.001291s ]
+ERR: 非法操作:辅导费
+
+[ 2018-05-05T23:20:41+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/del/id/175.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003647s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.008292s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001359s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/del%' ) LIMIT 1   [ RunTime:0.000929s ]
+SQL: DELETE FROM `mk_menu` WHERE ( `id` IN ('175') ) [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `mk_action` [ RunTime:0.004881s ]
+SQL: SELECT * FROM `mk_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `mk_action_log` [ RunTime:0.006692s ]
+SQL: INSERT INTO `mk_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',1525533641,'操作url：/index.php?s=/Admin/Menu/del/id/175.html') [ RunTime:0.001281s ]
+
+[ 2018-05-05T23:20:42+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002395s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found C:\Users\15899\Desktop\market\ThinkPHP\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.007268s ]
+SQL: SELECT * FROM `mk_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000844s ]
+SQL: SELECT `id` FROM `mk_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `mk_menu` [ RunTime:0.005159s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000912s ]
+SQL: SELECT `id`,`pid`,`title` FROM `mk_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000650s ]
+SQL: SELECT DISTINCT  `group` FROM `mk_menu` WHERE ( pid = 68 )  [ RunTime:0.001226s ]
+SQL: SELECT `id`,`url` FROM `mk_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.001178s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.002825s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.003146s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mk_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.001273s ]
+SQL: SELECT `id`,`title` FROM `mk_menu`  [ RunTime:0.001294s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `mk_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002206s ]
+

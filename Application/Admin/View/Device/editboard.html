@@ -1,0 +1,123 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>编辑货板</h2>
+    </div>
+    <form action="{:U(editboard)}" method="post" class="form-horizontal">
+        <!-- <div class="form-item">
+            <label class="item-label">设备名称</label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="device_name" value="">
+            </div>
+        </div> -->
+       <!--  <div class="form-item">
+            <label class="item-label">货板id号<span class="check-tips">（货板唯一标志）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="board_id" value="">
+            </div>
+        </div> -->
+        <div class="form-item">
+            <input type="text" class="text input-large" name="id" style="display: none;" value="{:I('id')}">
+
+            <label class="item-label">所属店铺</label>
+            <div class="controls">
+                <notempty name="shops">
+                    <select name="shop_id" id="shopselect">
+                        <volist name="shops" id="vo">
+                            <eq name="shop_id" value="$vo.shop_id">
+                                <option value="{$vo.shop_id}" selected="selected">{$vo.shop_name}</option>
+                                <else/>
+                                <option value="{$vo.shop_id}">{$vo.shop_name}</option>
+
+                            </eq>
+                        </volist>
+                    </select>
+                    <else/><a href="{:U('Shop/add')}">请先添加店铺</a>
+                </notempty>
+            </div>
+        </div>
+<!-- 
+        <div class="form-item">
+            <label class="item-label">所属锁板</label>
+            <div class="controls">
+                <select name="lock_id" id="lock">
+                   <notempty name="firstshop">
+                       <volist name="locklists" id="vo">
+                            <eq name="vo.shop_id" value="$firstshop.shop_id">
+                                <option value="{$vo.lock_id}">锁板ID号{$vo.lock_id}</option>
+                            </eq>
+                        </volist>
+                   </notempty>
+                </select>
+            </div>
+        </div> -->
+
+       <!--  <div class="form-item">
+            <label class="item-label">所属货柜</label>
+            <div class="controls">
+                <select name="device_id" id="device">
+                   <notempty name="showdevices">
+                       <volist name="showdevices" id="vo">
+                            <option value="{$vo.device_id}">{$vo.device_name}</option>
+                        </volist>
+                   </notempty>
+                </select>
+            </div>
+        </div> -->
+        <div class="form-item">
+            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+            <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+        </div>
+    </form>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+        //导航高亮
+        highlight_subnav('{:U('Device/board')}');
+
+        // shoplists = <?php echo json_encode($shoplists);?>;
+        // devicelists = <?php echo json_encode($devicelists);?>;
+
+        // // 改变店铺是触发
+        // $("#shopselect").change(function(e){
+        //     console.log(e.currentTarget.value)
+
+        //     shop_id = e.currentTarget.value;
+
+        //     // 删除子元素
+        //     clearselect();
+
+        //     // 添加子元素
+        //     appendselect(shop_id);
+        // })
+
+
+        // function clearselect(){
+
+        //     // 清除设备所有子元素
+        //     var length = $("#device").children().length;
+        //     console.log("当前货柜列表长度",length);
+        //     if (length!=0) {
+
+        //         for (var i = 0; i < length; i++) {
+                    
+        //             ($("#device").children()[0]).remove();
+        //         }
+        //         console.log("删除子元素成功");
+        //     }
+        // }
+
+        // function appendselect(shop_id){
+            
+        //     if (devicelists!=null) {
+        //         $.each(devicelists,function(index,element){
+        //             if (element.shop_id == shop_id) {
+        //                 $("#device").append("<option value="+element.device_id+">"+element.device_name+"</option>");
+        //             }
+        //         })
+        //     }
+        // }
+    </script>
+</block>

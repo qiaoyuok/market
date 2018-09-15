@@ -1,0 +1,65 @@
+<?php 
+
+namespace Admin\Controller;
+
+/**
+* 店铺管理员操作类
+*/
+class ShopapiController extends ShopbaseController{
+	
+	/**
+	 * 商家添加商品
+	 * @param  string $cost       [进价]
+	 * @param  string $cell_price [售价]
+	 * @param  string $goods_id   [商品平台ID号]
+	 * @return [type]             [description]
+	 */
+	public function addgoods($cost='',$cell_price='',$goods_id='',$uid=''){
+
+		if(IS_POST){
+
+			!empty($cost) or die('{"status":0,"msg":"进价不能为空"}');
+			!empty($cell_price) or die('{"status":0,"msg":"售价不能为空"}');
+			!empty($goods_id) or die('{"status":0,"msg":"缺少参数"}');
+
+			// 获取该操作员所属店铺
+			$ucenter_member = M("ucenter_member");
+			$userinfo = $ucenter_member->where("id = ".$uid)->find();
+			if(!$userinfo){
+				die('{"status":0,"msg":"用户不存在"}');
+			}
+
+			$frdgoods = M("frdgoods");
+			unset($_POST['token']);
+			$_POST['create_time'] = time();
+			$_POST['update_time'] = time();
+			$_POST['shop_id'] = $userinfo['shop_id'];
+
+			$data = $frdgoods->create($_POST);
+			$addres = $frdgoods->add($data);
+			if($addres){
+				die('{"status":1,"msg":"添加成功"}');
+			}else{
+				die('{"status":0,"msg":"添加失败"}');
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
